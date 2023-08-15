@@ -1,0 +1,1 @@
+db2 list db directory| grep alias | awk '{print "db2 activate db "$4}' |  sh
